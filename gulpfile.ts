@@ -59,10 +59,10 @@ const transpileTsAndJsToEs5 = () => {
   return gulp
     .src('app/ts/**/*.{ts,js}')
     .pipe(tsProject())
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(babel())
-    .pipe(concat('main.js'))
-    .pipe(sourcemaps.write('.', null))
+    // .pipe(concat('main.js'))
+    // .pipe(sourcemaps.write('.', null))
     .pipe(gulp.dest('dist'));
 };
 
