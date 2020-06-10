@@ -1,0 +1,42 @@
+{
+  "name": "gulp-4-starter-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "clean": "gulp clean"
+  },
+  "author": "David Lai",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/gulp": "^4.0.6",
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "node-sass": "^4.14.1",
+    "postcss-inline-svg": "^4.1.0",
+    "postcss-object-fit-images": "^1.1.2",
+    "rxjs": "^6.5.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
+}
